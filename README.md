@@ -25,9 +25,9 @@ When you launch Brackets, there is a Live preview button on the top right that l
 
 # Files included:
 
-scatterindex.html
-scatterstylesheet.css
-scatterplot1.js
+* scatterindex.html
+* scatterstylesheet.css
+* scatterplot1.js
 
 # Dataset used: 
 scatterdata.csv
