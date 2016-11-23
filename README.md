@@ -32,4 +32,4 @@ scatterplot1.js
 # Dataset used: 
 scatterdata.csv
 
-GDP2016TrillionUSDollars.csv
+
