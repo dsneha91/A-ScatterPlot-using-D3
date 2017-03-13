@@ -1,26 +1,72 @@
 <!DOCTYPE html>
-<html> 
+<html>
   <head>
-    <!-- Meta Tag -->
     <meta charset="utf-8">
-    <title>D3 Scatterplot</title>
-    <!-- CSS Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="scatterstylesheet.css">
-    <!-- D3.js Source -->
-    <script type= "text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
-  </head>
-  <body>
-    <h1 style = "text-align:center; color:steelblue"><bold> Energy Consumption, 2010 </bold></h1>
-    <!-- Your D3.js code for making a Bar Graph -->
-    <script type="text/javascript" src="scatterplot1.js"></script>
-     <!-- ADD YOUR NAME. REQUIRED -->
-      <p><strong>Created by: </strong>Sneha Das</p>
-      
-    <h4>Description: The area of circle represents Total Energy Consumption in Trillion BTUs</h4>
-   
+	  
+	  <h1 style = "text-align:center; color: dark grey"><bold>How ISIS uses Twitter data</bold></h1>
+	</head>
+<body>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+	
+	
+    <style>
+      @import "SentimentVz.css";
+	  
+    </style>
+	
+    <p>ISIS is the latest iteration of faith-based violent extremism that have grown out of the rubble of the Syrian civil war and post-occupation Iraq. While social media has been used to launch revolutions against tyrannical regimes, it is also being used by groups such as ISIS to spread their message of hate, recruit susceptible youth, and project power all over the world.There is 
+	a need to fight against violent extremists at home and abroad. </p>
+	
+	<h1 style = "text-align:center; color: dark grey">Which clergy do pro-ISIS fanboys quote the most and which ones do they hate the most?</h1>
+	
+	<p>On performing a sentiment analysis on 14000 tweets collected from ISIS fanboys between January 2015 to May 2016, the following observations were made.</p>
+	<div class="chart">
+	
+    <script src="SentimentVz.js" charset="utf-8"></script>
+	</div>
+	
+	<h1 style = "text-align:center; color: dark grey">Tweets from ISIS fanboys from January 2015 to May 2016</h1>
+	
+	<p>Interesting how the number of tweets have largely increased around the period of the November 2015 attacks! </p>
+	
+	<style>
+		@import "Barchart.css"
+	</style>
+	
+    <script src="Barchart.js" charset="utf-8"></script>
+	
+	
+	<p><strong>Created by: </strong>Sneha Das in collaboration with Suresh K Lodha.</p>
+	
+	<p> Dataset retrieved from Kaggle</p>
+	<ul>
+	  
+		<li><a href="https://www.kaggle.com/kzaman/how-isis-uses-twitter" target = "_blank">How ISIS uses Twitter Data - Kaggle </a></li>
+     </ul> 
+	  <h4>
+                Files:
+              </h4>
+              <div class="foot-links">
+                  <li>index.html</li>
+                  <li>SentimentVz.css</li>
+                  <li>SentimentVz.js</li>
+				  <li>Barchart1.css</li>
+                  <li>Barchart1.js</li>
+				  <li>timeline.csv</li>
+                  <li>package.json</li>
+                  <li>README.md</li>
+
+              </div>
     
+	 <h4> Sources: </h4>
+    <ul>
+      <li>D3 API Reference</li>
+      <li>Interactive Data Visualization for the Web</li>
       
-      
-      
-  </body>
+	 
+    </ul>
+	</body>
+    
 </html>
+  
